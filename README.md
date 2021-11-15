@@ -5,10 +5,12 @@
 
 (2) O2 profile check: read DOXY_ADJUSTED data and its QC flags. Identify "good" O2 data. Co-locate WOA2009 climatology and save them together as .nc file [python secipt](https://github.com/takaito1/WOD18/blob/master/python_scripts/bgcargo_check_WOA.ipynb)*1
 
-*1 This script needs WOA2009 dissolved oxygen climatology files. Download both annual and monthly. Save them in ./WOA09 folder [annual](http://data.nodc.noaa.gov/thredds/fileServer/woa/WOA09/NetCDFdata/dissolved_oxygen_annual_1deg.nc), [monthly](http://data.nodc.noaa.gov/thredds/fileServer/woa/WOA09/NetCDFdata/dissolved_oxygen_monthly_1deg.nc)*2
-
-*2 If these links are broken, [try this one](https://drive.google.com/drive/folders/1oCVeugGi_8Nq4GXr58RUI9NOEO7xDwjm?usp=sharing)
-
 (3) Plot the match-up float O2 and WOA09 climatology [python script](https://github.com/takaito1/WOD18/blob/master/python_scripts/plot_selected_profiles.ipynb)
 
 (4) Bin selected profiles and save statsitical means, standard deviations and sample size as .nc file, [python script](https://github.com/takaito1/WOD18/blob/master/python_scripts/Bin_selected_profiles.ipynb)
+
+#### footnote
+
+*1 This script needs WOA2009 dissolved oxygen climatology files. Download both annual and monthly. Save them in ./WOA09 folder [annual](http://data.nodc.noaa.gov/thredds/fileServer/woa/WOA09/NetCDFdata/dissolved_oxygen_annual_1deg.nc), [monthly](http://data.nodc.noaa.gov/thredds/fileServer/woa/WOA09/NetCDFdata/dissolved_oxygen_monthly_1deg.nc)*2
+
+*2 If these links are broken, [try this one](https://drive.google.com/drive/folders/1oCVeugGi_8Nq4GXr58RUI9NOEO7xDwjm?usp=sharing)
