@@ -5,4 +5,6 @@
 
 (2) O2 profile check: read DOXY_ADJUSTED data and its QC flags. Identify "good" O2 data. Co-locate WOA2009 climatology and save them together as .nc file [python secipt](https://github.com/takaito1/WOD18/blob/master/python_scripts/bgcargo_check_WOA.ipynb)
 
-(3) Plot the match-up float O2 and WOA09 climatology [phthon script](https://github.com/takaito1/WOD18/blob/master/python_scripts/plot_selected_profiles.ipynb)
+(3) Plot the match-up float O2 and WOA09 climatology [python script](https://github.com/takaito1/WOD18/blob/master/python_scripts/plot_selected_profiles.ipynb)
+
+(4) Bin selected profiles [python script]()
