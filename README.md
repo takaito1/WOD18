@@ -7,4 +7,5 @@
 
 (3) Plot the match-up float O2 and WOA09 climatology [python script](https://github.com/takaito1/WOD18/blob/master/python_scripts/plot_selected_profiles.ipynb)
 
-(4) Bin selected profiles [python script]()
+(4) Bin selected profiles [python script](https://github.com/takaito1/WOD18/blob/master/python_scripts/Bin_selected_profiles.ipynb)
+
