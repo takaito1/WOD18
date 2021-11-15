@@ -7,5 +7,5 @@
 
 (3) Plot the match-up float O2 and WOA09 climatology [python script](https://github.com/takaito1/WOD18/blob/master/python_scripts/plot_selected_profiles.ipynb)
 
-(4) Bin selected profiles and save statsitical means, standard deviations and sample size as netCDF file, [python script](https://github.com/takaito1/WOD18/blob/master/python_scripts/Bin_selected_profiles.ipynb)
+(4) Bin selected profiles and save statsitical means, standard deviations and sample size as .nc file, [python script](https://github.com/takaito1/WOD18/blob/master/python_scripts/Bin_selected_profiles.ipynb)
 
